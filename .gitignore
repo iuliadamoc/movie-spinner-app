@@ -1,6 +1,7 @@
 node_modules
 .next
 out
+.vs
 dist
 build
 .vercel
