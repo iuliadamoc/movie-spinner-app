@@ -1,35 +1,54 @@
-# What Movie Should I Watch Tonight? - Spinner App
+# 🎬 Movie Spinner App
 
-A cinematic Next.js movie roulette app with category filters, custom titles, smooth wheel animation, sound, confetti, and a glowing result reveal.
+A fun and interactive web app that helps you decide **what movie to watch tonight** using a spinning roulette 🎡
 
-## Run Locally
+---
+
+## ✨ Features
+
+- 🎡 Animated movie spinner (roulette)
+- 🎬 Random movie selection
+- 🗂️ Categories (Action, Comedy, Horror, Romance)
+- ➕ Add your own movies
+- ❌ Remove movies from the list
+- 🎉 Confetti effect when a movie is selected
+- 🌙 Modern dark UI (cinematic style)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ Next.js (React)
+- 🎨 CSS (custom styling)
+- 💡 JavaScript / TypeScript
+
+---
+
+<!-- ## 🚀 Live Demo
+
+👉 (add your Vercel link here after deploy)
+
+--- -->
+
+## 📸 Preview
+
+A cinematic-style spinner that randomly selects a movie for you 🎥  
+No more “I don’t know what to watch” 😄
+![alt text](image.png)
+
+---
+
+## 🧠 How It Works
+
+The app uses a roulette-style spinner that randomly selects a movie from a dynamic list.  
+Users can manage their own movie list and categories, making the experience interactive and customizable.
+
+---
+
+## 📦 Installation
+
+If you want to run it locally:
 
 ```bash
 npm install
 npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Build
-
-```bash
-npm run build
-npm run start
-```
-
-## Deploy on Vercel
-
-1. Push this project to GitHub.
-2. Import the repository in Vercel.
-3. Keep the default Next.js settings.
-4. Deploy.
-
-## Included Features
-
-- Roulette wheel with 17 default movies.
-- Action, Comedy, Horror, and Romance categories.
-- Add and remove movies.
-- Random smooth spin and cinematic selected-movie reveal.
-- Canvas confetti burst and optional spin sound.
-- Responsive dark theme built for desktop and mobile.
